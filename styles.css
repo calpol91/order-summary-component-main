@@ -91,6 +91,17 @@ main {
 .pricebox>div {
     text-align: left;
     width: 170px;
+    
+}
+
+.summary>h4 {
+    color: #000;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    fle;
 }
 
 .payornot {
