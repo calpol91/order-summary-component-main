@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(images/pattern-background-desktop.svg), #E0E8FF;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background: url(images/pattern-background-mobile.svg) #e0e8ff;
+    }
+    
+}
+
+.container {
+    width: 450px;
+    height: 697px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    display: flex;
+    text-align: center;
+    height: 697px;
+    flex-grow: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.headimg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 450px;
+    height: 220px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desc>h3 {
+    font-size: 28px;
+}
+
+.desc>p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #717FA6;
+    width: 354px;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+main {
+    height: 697px;
+    justify-content: space-between;
+}
+
+
+.pricebox {
+    height: 98px;
+    width: 354px;
+    border-radius: 15px;
+    background-color: #F7F9FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: #717FA6;
+    font-size: 16px;
+}
+
+.pricebox>img {
+    height: 48px;
+    width: 48px;
+}
+
+.pricebox>div {
+    text-align: left;
+    width: 170px;
+}
+
+.payornot {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.payornot>div>button {
+    background-color: #382ae1;
+    width: 354px;
+    height: 50px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0px 17px 19px 3px rgba(0, 0, 0, 0.1);
+}
+
+.payornot>div>a {
+    color: #717FA6;
+}
+
+.attribution {
+    margin-top: 20px;
+}
